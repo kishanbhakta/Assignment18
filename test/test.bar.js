@@ -38,20 +38,20 @@ describe('reverseString', function() {
 });
 
 
-describe('cipher', function() {
+describe('cipher', function(str) {
   it('should cipher a string', function() {
-    expect(bar.cipher('')).to.equal('');
+    expect(bar.cipher('BAUCE')).to.equal('¦¥¹§©');
   });
 });
 
-describe('decipher', function() {
+describe('decipher', function(str) {
   it('should decipher a string', function() {
     expect(bar.decipher('')).to.equal('');
   });
 });
 
 
-describe('rot13', function() {
+describe('rot13', function(sentence) {
   it('should turn a sentence into a character code string', function() {
     expect(bar.rot13('')).to.equal('');
   });
