@@ -7,7 +7,6 @@ beforeEach(function() {
 
 
 describe('squared', function() {
-
   it('should square a number', function() {
     expect(bar.squared(2)).to.equal(4);
   });
